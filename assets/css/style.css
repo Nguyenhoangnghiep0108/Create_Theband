@@ -1,0 +1,45 @@
+/* Reset Css */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Times New Roman", Times, serif;
+}
+/* 1.vi tri
+2 kich thou(cao ring)
+3 mau sat
+4 kieu dang */
+.main {
+}
+.header {
+  height: 56px;
+  background-color: #000;
+}
+.slider {
+}
+.content {
+}
+.footer {
+}
+.nav {
+}
+.nav li {
+  display: inline-block;
+}
+.nav li a {
+  text-decoration: none;
+  line-height: 56px;
+  padding: 0 50px;
+  color: #1fc2e7;
+}
+.nav li:hover a {
+  color: #000;
+}
+.nav .subnav {
+  display: none;
+}
+.name {
+  color: #d7530c;
+}
