@@ -61,14 +61,46 @@ html{
 }
 
 #slider{
-    min-height: 500px;
-    background-color: brown;
+    padding-top: 50%;
+    background: url(/assets/image/thebands.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+#slider h1{
+    position:absolute;
+    transform: translateX(-50%);
+    bottom: 10px;
+    left: 50%;   
 }
 
 #content{
-
+position: relative;
 }
-
+#content h1{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    text-align: center; 
+}
+#content p{
+    transform: translateX(-50%);
+    top: 45px;
+    position: absolute;
+    left: 50%;
+}
+.imagecontent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.imagecontent img{
+    margin-top: 150px;
+     width: 32%;
+     height: auto;
+}
 #footer{
 
 }
